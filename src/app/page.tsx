@@ -146,7 +146,7 @@ export default function Home() {
               Contact
             </Link>
           </div>
-          <p className="text-gray-400">© 2024 Moodie. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 Moodie. All rights reserved.</p>
         </div>
       </footer>
     </div>
