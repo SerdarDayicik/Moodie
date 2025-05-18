@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function PrivacyPolicy() {
   return (
-    <div className="min-h-screen bg-[#111] text-white">
+    <div className="min-h-screen bg-[#111] text-white flex flex-col">
       {/* Navigation */}
       <nav className="p-6">
         <div className="flex items-center justify-between max-w-6xl mx-auto">
@@ -13,7 +13,7 @@ export default function PrivacyPolicy() {
       </nav>
 
       {/* Content */}
-      <div className="max-w-4xl mx-auto px-6 py-12">
+      <div className="flex-grow max-w-4xl mx-auto px-6 py-12">
         <h1 className="text-4xl font-bold mb-4">Privacy Policy for Moodi</h1>
         <p className="text-gray-400 italic mb-8">Last Update: May 17, 2025</p>
         
@@ -43,7 +43,7 @@ export default function PrivacyPolicy() {
       </div>
 
       {/* Footer */}
-      <footer className="px-6 py-10 bg-[#1a1a1a] mt-20">
+      <footer className="px-6 py-10 bg-[#1a1a1a] mt-auto">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2">
             <Link href="/" className="font-bold hover:text-blue-500">
@@ -61,7 +61,7 @@ export default function PrivacyPolicy() {
               Contact
             </Link>
           </div>
-          <p className="text-gray-400">© 2024 Moodi. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 Moodi. All rights reserved.</p>
         </div>
       </footer>
     </div>
