@@ -21,7 +21,7 @@ export default function Contact() {
           <div className="bg-[#1a1a1a] p-8 rounded-2xl border border-gray-800 hover:border-blue-500 transition-colors">
             <h2 className="text-2xl font-semibold mb-6 text-blue-400">Email Us</h2>
             <p className="text-xl text-gray-300">
-              support@moodiapp.com
+              hi@synapiq.com
             </p>
             <p className="text-gray-400 mt-2">
               We typically respond within 24 hours
