@@ -14,7 +14,7 @@ export default function TermsOfUse() {
 
       {/* Content */}
       <div className="flex-grow max-w-4xl mx-auto px-6 py-12">
-        <h1 className="text-4xl font-bold mb-4">Terms of Use for Moodi</h1>
+        <h1 className="text-4xl font-bold mb-4">EULA For Moodi</h1>
         <p className="text-gray-400 italic mb-8">Last Update: May 17, 2025</p>
         
         <div className="space-y-8 text-gray-300">
@@ -68,7 +68,7 @@ export default function TermsOfUse() {
               Privacy Policy
             </Link>
             <Link href="/terms" className="text-gray-400 hover:text-white">
-              Terms of Use
+              EULA
             </Link>
             <Link href="/contact" className="text-gray-400 hover:text-white">
               Contact
